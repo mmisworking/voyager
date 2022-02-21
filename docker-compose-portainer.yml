@@ -10,7 +10,7 @@ services:
     container_name: voyager
     image: registry.huc.knaw.nl/vicd/voyager:latest
     environment:
-      - VIRTUAL_HOST=voyager.sd.di.huc.knaw.nl
+      - VIRTUAL_HOST=<your domain>
       - VIRTUAL_PORT=8888
 #    env_file:
 #      - .env
